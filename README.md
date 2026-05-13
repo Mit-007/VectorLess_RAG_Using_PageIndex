@@ -321,7 +321,6 @@ Ask questions from uploaded PDF.
 - Streamlit
 - Google Gemini
 - PageIndex
-- REST APIs
 
 ---
 

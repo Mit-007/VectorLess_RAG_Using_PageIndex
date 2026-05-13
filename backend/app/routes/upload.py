@@ -43,9 +43,9 @@ async def upload_file(background_tasks: BackgroundTasks,file: UploadFile = File(
 
         logging.info("Upload completed")
 
-        # tree_result = await generate_tree_status(doc_id)
+        tree_result = await generate_tree_status(doc_id)
 
-        # logging.info(tree_result)
+        logging.info(tree_result)
 
         logging.info("=============================  end process  ===========================================")
 
